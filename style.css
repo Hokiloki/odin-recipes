@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: rgb(220, 195, 135);
+}
+
+.overview {
+  background-color: rgb(104, 68, 0);
+  font-family: Roboto;
+  width: 520px;
+  height: 400px;
+  margin: 50px;
+  padding: 3px;
+  border: 2px solid black;
+}
+
+.header {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(66, 43, 0);
+  margin: 6px;
+  padding: 8px;
+  border: 1px solid black;
+  border-bottom: 3px double black;
+  border-right: 3px double black;
+  box-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+.list {
+  margin: 6px;
+  height: auto;
+  padding: 8px;
+  border: 1px solid black;
+  border-bottom: 3px double black;
+  border-right: 3px double black;
+  box-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+.bullet-points {
+  color: rgb(66, 43, 0);
+  padding: 4px;
+  margin-left: 30px;
+}
+
+.links {
+  color: rgb(66, 43, 0);
+  font-size: 20px;
+}
+
+.gif {
+  display: block;
+  position: absolute;
+  inset-inline-start: 580px;
+  inset-block-start: 50px;
+  border: 2px solid black;
+  height: 400px;
+}
